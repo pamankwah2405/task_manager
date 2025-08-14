@@ -34,17 +34,67 @@
 # if the purchase amount is less than 50 allpy no discount and print amount to pay
 
 
-price = float(input("what is ypur purchase amount ?\n"))
+# price = float(input("what is ypur purchase amount ?\n"))
 
-if price > 100.00:
-    print(f'your total ampount is : { price * 0.8 } ')
+# if price > 100.00:
+#     print(f'your total ampount is : { price * 0.8 } ')
 
-elif price > 50.00:
-    print(f' your total payment is: {price * 0.9}')
+# elif price > 50.00:
+#     print(f' your total payment is: {price * 0.9}')
 
-else:
-    print(f'your total  is {price}')
+# else:
+#     print(f'your total  is {price}')
 
 
+
+
+
+
+# # Ask user to input the length of the 3 sides of a triangle
+# x=int(input("Enter first side:\n"))
+# y=int(input("Enter second side:\n"))
+# z=int(input("Enter third side:\n"))
+# # If all sides are equal print Equilateral
+# if x==y and y==z :
+#     print( "This is an Equilateral triangle")
+# # If 2 sides are equal print Isosceles
+# elif z==y or y==x or z==x:
+#     print("This is an Isosceles triangle")
+# # If no sides are equal print Scalene
+# else:
+#     print ("This is a Scalene")
+    
+
+# file = open( https://docs.google.com/document/d/1tL0f-ESR8x9HwcU2WNlqE6hqu6C97yaUzE2gESeBqt0/edit?usp=sharing , "r")
+# print(file.read())
+
+# file = open( "tasks.txt" , "r")
+# tasks = (file.read().split("\n"))
+# for task in tasks:
+#   print(f"{tasks.index(task) +1}. {task}")
+
+# response = register_user("prince amankwah", "amankwahp@apcgh.com", "0244449489")
+# #print(response)
+
+
+# # define a register user function
+
+
+import add
+import show
+import update
+import delete
+
+add_task_response = add.add_Task("sleep")
+print(add_task_response)
+
+show_task_response = show.show_task()
+print(show_task_response)
+
+update_task_response = update.update_task()
+print(update_task_response)
+
+delete_task_response = update.update_task()
+print(delete_task_response)
 
 
